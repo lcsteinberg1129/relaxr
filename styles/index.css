@@ -1,0 +1,220 @@
+/* FONTS
+Font Family: Google's Open Sans
+Font Weight: Semibold(600), Extrabold(800)
+Font Style: Italic
+ */
+
+/* import googles open sans font with semibold and extrabold options*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,800,800i');
+
+/* Box Model Hack */
+* {
+  /* add box sizing: border-box   */
+  box-sizing:border-box;
+}
+
+body {
+/*  set the background color to black   */
+  background-color: black;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  /* margin will be used to center the container */
+  /* width will be 900px   */
+  margin: 0 auto;
+  width: 900px;
+  background-color: white;
+  font-family: 'Open Sans';
+}
+
+.wrapper {
+  /* margin will be used to center the container */
+  /* width will be 80% */
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+.center{
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+header {
+/*   background image */
+/*   height will be 700px */
+/*   padding top will be 32px */
+  background-image: url("https://res.cloudinary.com/dutwcs5c9/image/upload/v1551459402/mountains.png");
+  height: 700px;
+  padding-top: 32px;
+  background-size: cover;
+}
+
+header .logo {
+/*   set color to #fff */
+  color: rgba(255, 255, 255, .8)
+
+}
+
+.logo {
+/*  set font family to Open Sans */
+/*  set font weight to Extrabold */
+/*  set font size to 48px  */
+  font-weight: 800;
+  font-size: 48px;
+}
+
+header h2  {
+/*  set font family to Open Sans */
+/*  set font weight to Semibold */
+/*  set font size to 35px  */
+/*  set color to #fff */
+/*  how would center the text? */
+/*  how would you use margin to position element?*/
+  font-weight: 600;
+  font-size: 35px;
+  color: rgba(203,203,204, 1);
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+}
+
+.yellow {
+/* set background color to #f9e42e   */
+/*  set color to #033048 */
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+.button {
+/*  borders should be rounded at 5px */
+/*  change it's display property so that it accepts width/height */
+/*  set font size to 24px  */
+/*  set font weight to extrabold */
+/*  set the padding to 12px top/bottom and 0 left/right */
+/*  how would center the text? */
+/*  use margin to center the element */
+/*  play with the width till it matches the image */
+  border-radius: 5px;
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 12px 0px;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 300px;
+}
+
+ #box2{
+  height: 460px;
+}
+
+#box2 h2{
+  color: #253844;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 100px 0px 30px 0px;
+}
+
+#ptext{
+  color: rgb(134,134,134);
+  font-size: 18px;
+  margin-right: 250px;
+}
+
+#box2 ul{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+ul li {
+  padding: 5px 50px;
+  padding-left: 0px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+#box3{
+  height: 350px;
+  background-image: url(https://res.cloudinary.com/dutwcs5c9/image/upload/v1551464209/water2.png);
+  background-size: cover;
+  color: rgba(203,203,204,1);
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+#box3 .wrapper .center p{
+  font-weight: 400;
+  margin: 10px 100px;
+}
+
+#name{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#box4{
+  height: 100px;
+  background-color: #f9e42e;
+  padding-top: 20px;
+}
+
+#box4 .wrapper .button{
+  color: white;
+  text-align: center;
+  background-color: #033048;
+}
+
+#box5{
+  height: 300px;
+  text-align: center;
+  background-color: #3c3d3e;
+}
+
+#box5 .wrapper h2{
+  color: #f9e42e;
+  font-size: 48px;
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+#box5 .wrapper ul{
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 50px;
+}
+
+#box5 .wrapper ul li{
+  display: inline;
+  font-size: 40px;
+}
+
+.fa {
+  padding-top: 10px;
+  width: 20px;
+  text-decoration: none;
+  color: rgba(203,203,204,1);
+}
+
+#box5 .wrapper p{
+  color: rgba(203,203,204,1);
+  padding-top: 40px;
+}
